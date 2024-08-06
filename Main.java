@@ -10,12 +10,6 @@ public class Main {
             System.out.print("ASCII value for "+a+" is ");
             int b=(int)a;
             System.out.print(b+"\n");
-
-
-        }
-
-
-    }
-
-
+       }
+}
 }
