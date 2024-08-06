@@ -1,10 +1,9 @@
 # Finding-Strings-ASCII-value
-1)Install Java: Ensure that you have Java installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-2)Compile the Program**: Open your terminal or command prompt and navigate to the directory where you have saved the `Main.java` file. Compile the program using the following command: ```bash
-   javac Main.java
-3)Run the Program: After compiling, run the program using the following command:
-4)Enter Your Name: The program will prompt you to enter your name. Type your name and press Enter.
-5)View ASCII Values: The program will display the ASCII value for each character in your name.
+Importing Scanner: The Scanner class from the java.util package is used to read the user input.
+Main Class: The Main class contains the main method, which is the entry point of the program.
+Reading User Input: The program prompts the user to enter their name and reads the input using Scanner.nextLine().
+Looping Through Characters: The program loops through each character of the input string, retrieves its ASCII value using charAt() and casts it to an integer.
+Printing ASCII Values: The ASCII value of each character is printed to the console.
 Sample Output:
 Enter your name:
 vasanth
